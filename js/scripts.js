@@ -1,5 +1,5 @@
 function numCounter(input){
-  var numberOutput
+  var numberOutput=""
   var number = parseInt(input);
   var numArray = []
   for (var i=0;i<=number;i++){
@@ -14,7 +14,7 @@ function numCounter(input){
   translator(numArray[2],"2, ","hi")
   numberOutput +=
   translator(numArray[3],"3","hi")
-  numberOutput +=
+  return numberOutput;
   console.log(numberOutput)
 }
 
@@ -33,7 +33,7 @@ function translator(num,nar,msg){
 }
 
 $(document).ready(function(){
-  $("form").submit(function(event){
+  $("form#numForm").submit(function(event){
     event.preventDefault();
     var userInput = $("input#bbInput").val();
     var userOutput = numCounter(userInput);
