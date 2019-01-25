@@ -9,11 +9,11 @@ function numCounter(input){
   numberOutput +=
   translator(numArray[0],"0, ","")
   numberOutput +=
-  translator(numArray[1],"1, ","hi")
+  translator(numArray[1],"1, ","Beep!, ")
   numberOutput +=
-  translator(numArray[2],"2, ","hi")
+  translator(numArray[2],"2, ","Boop!, ")
   numberOutput +=
-  translator(numArray[3],"3","hi")
+  translator(numArray[3],"3","I'm sorry, Dave. I'm afraid I can't do that., ")
   return numberOutput;
   console.log(numberOutput)
 }
@@ -24,9 +24,9 @@ function translator(num,nar,msg){
   if (num===0){
     return nar;
   } else if (num===1){
-    return nar;
+    return msg;
   } else if (num===2){
-    return nar;
+    return msg;
   } else if (num===3){
     return msg;
   }
