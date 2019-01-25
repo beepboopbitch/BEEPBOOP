@@ -142,6 +142,8 @@ function translator(num,nar,msg){
     return msg;
   } else if (num===32){
     return msg;
+  } else if (num===undefined){
+    return ""
   }
 }
 
