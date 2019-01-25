@@ -10,7 +10,7 @@ _A website that has a single input for numbers that uses functions to translate 
 
 ## Setup
 
-* _Clone this repository_
+* _Clone this repository_ https://github.com/nayomi-morita/BEEPBOOP.git
 * _Open index.html in browser_
 * _Use chosen code editor to make changes (I used atom.)_
 
