@@ -3,11 +3,14 @@
 }
 h1#head {
   text-align: center;
-  color: white;
+  color: #FFF4E0;
 }
 body {
-  background-color: #E80C7A;
+  background-color: #00ADB5;
 }
 p {
-  color: red;
+  color: #FC3C3C;
+}
+.jumbotron {
+  background-color: #FFF4E0;
 }
