@@ -8,3 +8,6 @@ h1#head {
 body {
   background-color: green;
 }
+p {
+  color: red;
+}
