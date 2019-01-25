@@ -27,56 +27,53 @@ function numCounter(input){
   numberOutput +=
   translator(numArray[9],"9, ","")
   numberOutput +=
-  translator(numArray[10],"10, ","")
+  translator(numArray[10],"10, ","Beep!, ")
   numberOutput +=
-  translator(numArray[11],"11, ","")
+  translator(numArray[11],"11, ","Beep!, ")
   numberOutput +=
-  translator(numArray[12],"12, ","")
+  translator(numArray[12],"12, ","Boop!, ")
   numberOutput +=
-  translator(numArray[13],"13, ","")
+  translator(numArray[13],"13, ","I'm sorry, Dave. I'm afraid I can't do that., ")
   numberOutput +=
-  translator(numArray[14],"14, ","")
+  translator(numArray[14],"14, ","Beep!, ")
   numberOutput +=
-  translator(numArray[15],"15, ","")
+  translator(numArray[15],"15, ","Beep!, ")
   numberOutput +=
-  translator(numArray[16],"16, ","")
+  translator(numArray[16],"16, ","Beep!, ")
   numberOutput +=
-  translator(numArray[17],"17, ","")
+  translator(numArray[17],"17, ","Beep!, ")
   numberOutput +=
-  translator(numArray[18],"18, ","")
+  translator(numArray[18],"18, ","Beep!, ")
   numberOutput +=
-  translator(numArray[19],"19, ","")
+  translator(numArray[19],"19, ","Beep!, ")
   numberOutput +=
-  translator(numArray[20],"20, ","")
+  translator(numArray[20],"20, ","Boop!, ")
   numberOutput +=
-  translator(numArray[21],"21, ","")
+  translator(numArray[21],"21, ","Boop!, ")
   numberOutput +=
-  translator(numArray[22],"22, ","")
+  translator(numArray[22],"22, ","Boop!, ")
   numberOutput +=
-  translator(numArray[23],"23, ","")
+  translator(numArray[23],"23, ","I'm sorry, Dave. I'm afraid I can't do that., ")
   numberOutput +=
-  translator(numArray[24],"24, ","")
+  translator(numArray[24],"24, ","Boop!, ")
   numberOutput +=
-  translator(numArray[25],"25, ","")
+  translator(numArray[25],"25, ","Boop!, ")
   numberOutput +=
-  translator(numArray[26],"26, ","")
+  translator(numArray[26],"26, ","Boop!, ")
   numberOutput +=
-  translator(numArray[27],"27, ","")
+  translator(numArray[27],"27, ","Boop!, ")
   numberOutput +=
-  translator(numArray[28],"28, ","")
+  translator(numArray[28],"28, ","Boop!, ")
   numberOutput +=
-  translator(numArray[29],"29, ","")
+  translator(numArray[29],"29, ","Boop!, ")
   numberOutput +=
-  translator(numArray[30],"30, ","")
+  translator(numArray[30],"30, ","I'm sorry, Dave. I'm afraid I can't do that., ")
   numberOutput +=
-  translator(numArray[31],"31, ","")
+  translator(numArray[31],"31, ","I'm sorry, Dave. I'm afraid I can't do that., ")
   numberOutput +=
-  translator(numArray[32],"32, ","")
+  translator(numArray[32],"32, ","I'm sorry, Dave. I'm afraid I can't do that., ")
   return numberOutput
-  console.log(numberOutput)
 }
-
-console.log(numCounter("9"))
 
 function translator(num,nar,msg){
   if (num===0){
@@ -100,51 +97,51 @@ function translator(num,nar,msg){
   } else if (num===9){
     return nar;
   } else if (num===10){
-    return nar;
+    return msg;
   } else if (num===11){
-    return nar;
+    return msg;
   } else if (num===12){
-    return nar;
+    return msg;
   } else if (num===13){
-    return nar;
+    return msg;
   } else if (num===14){
-    return nar;
+    return msg;
   } else if (num===15){
-    return nar;
+    return msg;
   } else if (num===16){
-    return nar;
+    return msg;
   } else if (num===17){
-    return nar;
+    return msg;
   } else if (num===18){
-    return nar;
+    return msg;
   } else if (num===19){
-    return nar;
+    return msg;
   } else if (num===20){
-    return nar;
+    return msg;
   } else if (num===21){
-    return nar;
+    return msg;
   } else if (num===22){
-    return nar;
+    return msg;
   } else if (num===23){
-    return nar;
+    return msg;
   } else if (num===24){
-    return nar;
+    return msg;
   } else if (num===25){
-    return nar;
+    return msg;
   } else if (num===26){
-    return nar;
+    return msg;
   } else if (num===27){
-    return nar;
+    return msg;
   } else if (num===28){
-    return nar;
+    return msg;
   } else if (num===29){
-    return nar;
+    return msg;
   } else if (num===30){
-    return nar;
+    return msg;
   } else if (num===31){
-    return nar;
+    return msg;
   } else if (num===32){
-    return nar;
+    return msg;
   }
 }
 
