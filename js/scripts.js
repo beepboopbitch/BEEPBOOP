@@ -1,7 +1,9 @@
 function numCounter(input){
   var number = parseInt(input);
-  console.log("6");
+  var numArray = []
   for (var i=0;i<=number;i++){
-    console.log(i);
+    numArray.push(i)
+    console.log(numArray)
   }
 }
+console.log(numCounter("9"))
