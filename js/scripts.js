@@ -4,7 +4,6 @@ function numCounter(input){
   var numArray = []
   for (var i=0;i<=number;i++){
     numArray.push(i)
-
   }
   numberOutput +=
   translator(numArray[0],"0, ","")
