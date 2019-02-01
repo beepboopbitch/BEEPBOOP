@@ -21,9 +21,6 @@ function arrayTranslator(num) {
   }
 }
 
-
-
-
 $(document).ready(function(){
   $("form#numForm").submit(function(event){
     event.preventDefault();
