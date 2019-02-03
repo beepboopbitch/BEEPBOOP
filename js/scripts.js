@@ -11,7 +11,7 @@ function arrayTranslator(num) {
   var numInspector = num.toString().split('');
 
   if (numInspector.includes('3')){
-    return "I'm sorry Dave, I'm afraid I can't do that" + ", ";
+    return "I'm sorry, Dave. I'm afraid I can't do that" + ", ";
   } else if(numInspector.includes('2')) {
     return "boop" + ", ";
   } else if(numInspector.includes('1')) {
