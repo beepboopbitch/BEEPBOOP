@@ -14,6 +14,7 @@ _A website that has a single input for numbers that uses functions to translate 
 * _1 returns "BEEP!"_
 * _2 returns "BOOP!"_
 * _3 returns "I'm sorry, Dave. I'm afraid I can't do that."_
+* _number with 3 in it ex: "325", should return "I'm sorry, Dave. I'm afraid I can't do that." for 325_
 
 ## Setup
 
